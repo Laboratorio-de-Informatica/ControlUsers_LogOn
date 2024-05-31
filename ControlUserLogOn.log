@@ -1,0 +1,16 @@
+abr. 13, 2023 11:19:26 A. M. edu.eci.labinfo.controluserslogon.Log record
+SEVERE: java.lang.NullPointerException
+java.lang.NullPointerException
+	at edu.eci.labinfo.controluserslogon.Main.main(Main.java:73)
+
+abr. 13, 2023 11:19:54 A. M. edu.eci.labinfo.controluserslogon.Log record
+SEVERE: java.sql.SQLException: The url cannot be null
+java.sql.SQLException: The url cannot be null
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:660)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at edu.eci.labinfo.persistencia.Conexion.conectar(Conexion.java:36)
+	at edu.eci.labinfo.persistencia.ServiciosPersistencia.logedOn(ServiciosPersistencia.java:13)
+	at edu.eci.labinfo.controluserslogon.Main.main(Main.java:48)
+
+abr. 13, 2023 11:26:40 A. M. edu.eci.labinfo.controluserslogon.Log record
+SEVERE: llego
